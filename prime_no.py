@@ -11,3 +11,17 @@ def check_prime_no(number):
         print(number, "is not a prime number")
 
 check_prime_no(23)
+
+
+""" TO print a list of prime numbers"""
+
+def prime_number(n):
+    for n in range(n):
+        if n>1:
+            for i in range(2,n):
+                if(n%i)==0:
+                    break
+            else:
+                print(n)
+
+prime_number(10)
