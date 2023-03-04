@@ -10,7 +10,7 @@ def check_prime_no(number):
     else:
         print(number, "is not a prime number")
 
-check_prime_no(23)
+check_prime_no(22)
 
 
 """ TO print a list of prime numbers"""
@@ -24,4 +24,4 @@ def prime_number(n):
             else:
                 print(n)
 
-prime_number(10)
+prime_number(22)

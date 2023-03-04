@@ -2,7 +2,7 @@ def duplicate(arr,n):
     if n==0 or n==1:
         return n
     
-    arr.sort();
+    arr.sort()
     j = 1
     
     for i in range(1, n):
@@ -12,7 +12,7 @@ def duplicate(arr,n):
 
     return j
 
-arr = [1,2,2,3,3,3]
+arr = [1,4,2,3,3,3]
 n = len(arr)
 
 n = duplicate(arr, n)

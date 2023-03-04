@@ -19,4 +19,4 @@ def repeted_char(str1):
             return i
     return None
 
-print(repeted_char("krishnaa"))
+print(repeted_char("krishnaak"))
